@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CryptoExample</string>
+    <string name="title_activity_data_store">DataStoreActivity</string>
 </resources>
