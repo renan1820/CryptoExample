@@ -58,9 +58,8 @@ class MainActivity : ComponentActivity() {
                     mutableStateOf(messageToDecrypt)
                 }
 
-                val scope = rememberCoroutineScope()
-                val snackbarHostState = remember { SnackbarHostState() }
-
+//                val scope = rememberCoroutineScope()
+//                val snackbarHostState = remember { SnackbarHostState() }
 
                 Column (
                     modifier = Modifier
@@ -90,9 +89,6 @@ class MainActivity : ComponentActivity() {
                                     bytes = bytes,
                                     outputStream = fos
                                 ).decodeToString()
-                            }.also {
-
-
                             }
                         }) {
                             Text(text = "Encrypt")
